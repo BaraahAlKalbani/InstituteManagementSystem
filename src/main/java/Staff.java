@@ -4,7 +4,6 @@
 public class Staff {
    
     public Staff(String staffID, String name, String address, String phone, String email, double salary) {
-        super();
         this.staffID = staffID;
         this.name = name;
         this.address = address;

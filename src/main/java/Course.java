@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 // Course class representing a course, with fields courseCode, title, credits,
 // department and teacher
@@ -14,7 +13,6 @@ public class Course {
     String name;
     int credits;
     Teacher teacher;
-    ArrayList<Enrollment> enrollments;
 
     public void assignTeacher() {
 

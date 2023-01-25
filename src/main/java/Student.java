@@ -3,7 +3,6 @@
 // phone and email
 public class Student {
     public Student(String studentID, String name, String address, String phone, String email) {
-        super();
         StudentID = studentID;
         this.name = name;
         this.address = address;

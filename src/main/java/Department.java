@@ -14,6 +14,7 @@ public class Department {
     String name;
     ArrayList<Student> students;
     ArrayList<Staff> staff;
+    ArrayList<Event> events;
     public void assignStaff() {
 
     }
