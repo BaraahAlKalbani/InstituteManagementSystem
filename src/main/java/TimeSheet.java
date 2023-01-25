@@ -13,10 +13,10 @@ public class TimeSheet {
     enum TimeSheetStatus {
         PRESENT, ABSENT
     }
-    
-    
-    static void markCheakIn()
-    {}
-    static void markCheakOut()
-    {}
+
+    static void markCheakIn() {
+    }
+
+    static void markCheakOut() {
+    }
 }

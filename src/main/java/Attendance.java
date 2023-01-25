@@ -4,7 +4,6 @@ import java.util.ArrayList;
 // and student
 public class Attendance {
 
-
     public Attendance(String date, ArrayList<Student> students) {
         this.date = date;
         this.students = students;
@@ -12,11 +11,9 @@ public class Attendance {
 
     String date;
     ArrayList<Student> students;
-    
+
     enum AttendanceStatus {
         PRESENT, ABSENT
     }
-    static void markAttendance()
-    {}
-    
+
 }
